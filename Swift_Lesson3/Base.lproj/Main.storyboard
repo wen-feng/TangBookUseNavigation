@@ -31,7 +31,7 @@
                                         <rect key="frame" x="0.0" y="74" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Xy-dv-xcc" id="dOp-ZL-8tn">
-                                            <frame key="frameInset" width="342" height="43.5"/>
+                                            <frame key="frameInset" width="342" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="李白" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTd-GB-5FC">
@@ -51,7 +51,7 @@
                                         <rect key="frame" x="0.0" y="118" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QKa-eC-UXA" id="IBw-HZ-DnP">
-                                            <frame key="frameInset" width="342" height="43.5"/>
+                                            <frame key="frameInset" width="342" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="杜甫" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0b-7A-VvK">
@@ -71,7 +71,7 @@
                                         <rect key="frame" x="0.0" y="162" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zP9-Dw-k0q" id="FL5-KU-Cro">
-                                            <frame key="frameInset" width="342" height="43.5"/>
+                                            <frame key="frameInset" width="342" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="王維" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31s-D6-2q9">
@@ -99,7 +99,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p0T-ms-eMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2815.1999999999998" y="143.47826086956522"/>
+            <point key="canvasLocation" x="3754.4000000000001" y="143.47826086956522"/>
         </scene>
         <!--李白-->
         <scene sceneID="NAe-hs-EYw">
@@ -132,12 +132,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eeG-vS-uiE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3516" y="142.57871064467767"/>
+            <point key="canvasLocation" x="4500" y="-547"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--唐詩-->
         <scene sceneID="W1n-9j-q2s">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0WH-rj-sMx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="唐詩" id="S5h-AH-6RE"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hU6-4u-RHQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -150,9 +151,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tgv-Ak-Nv3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1876" y="143.47826086956522"/>
+            <point key="canvasLocation" x="2815.1999999999998" y="143.47826086956522"/>
         </scene>
-        <!--李白-->
+        <!--杜甫-->
         <scene sceneID="fHS-Vb-jid">
             <objects>
                 <viewController id="DCO-tF-K8V" sceneMemberID="viewController">
@@ -181,11 +182,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="李白" id="EjG-yP-KiG"/>
+                    <navigationItem key="navigationItem" title="杜甫" id="EjG-yP-KiG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2T-Sw-uwY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2815" y="909"/>
+            <point key="canvasLocation" x="4282" y="909"/>
         </scene>
         <!--王維-->
         <scene sceneID="VzV-hz-bi4">
@@ -219,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iOD-lF-dCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3551" y="909"/>
+            <point key="canvasLocation" x="4994" y="909"/>
         </scene>
     </scenes>
 </document>
