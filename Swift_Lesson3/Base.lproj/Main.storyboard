@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0WH-rj-sMx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v9r-cA-yVa">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--詩人-->
+        <!--唐詩-->
         <scene sceneID="Kpo-GS-Afm">
             <objects>
                 <tableViewController id="0md-6a-qr3" sceneMemberID="viewController">
@@ -95,11 +95,11 @@
                             <outlet property="delegate" destination="0md-6a-qr3" id="fSt-NM-7zh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="詩人" id="OW7-sh-lGW"/>
+                    <navigationItem key="navigationItem" title="唐詩" id="OW7-sh-lGW"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p0T-ms-eMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3754.4000000000001" y="143.47826086956522"/>
+            <point key="canvasLocation" x="4613.6000000000004" y="-517.6911544227886"/>
         </scene>
         <!--李白-->
         <scene sceneID="NAe-hs-EYw">
@@ -132,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eeG-vS-uiE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4500" y="-547"/>
+            <point key="canvasLocation" x="4489" y="-1198"/>
         </scene>
         <!--唐詩-->
         <scene sceneID="W1n-9j-q2s">
@@ -151,7 +151,96 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tgv-Ak-Nv3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2815.1999999999998" y="143.47826086956522"/>
+            <point key="canvasLocation" x="3741.5999999999999" y="-518.59070464767615"/>
+        </scene>
+        <!--宋詞-->
+        <scene sceneID="slk-GU-hTk">
+            <objects>
+                <tableViewController id="FWJ-T3-JIY" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="aBP-oJ-KvI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="gQH-VR-jtH">
+                            <frame key="frameInset" minY="64" width="375" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="a2R-0o-TPa">
+                            <frame key="frameInset" minY="118" width="375" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <sections>
+                            <tableViewSection id="XJR-79-Yp4">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="44" id="SJb-wI-1LB">
+                                        <rect key="frame" x="0.0" y="74" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SJb-wI-1LB" id="t6b-0C-ZUJ">
+                                            <frame key="frameInset" width="342" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蘇軾" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ER-Bm-Ckq">
+                                                    <frame key="frameInset" minX="8" minY="11" width="73" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5uy-0H-qL5" kind="push" id="icK-sx-CWV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="FWJ-T3-JIY" id="aP5-8H-Nq9"/>
+                            <outlet property="delegate" destination="FWJ-T3-JIY" id="WeL-Qa-0dR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="宋詞" id="izw-Sq-w79"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g2d-kd-o40" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3674" y="889"/>
+        </scene>
+        <!--蘇軾-->
+        <scene sceneID="fNr-iS-WT9">
+            <objects>
+                <viewController id="5uy-0H-qL5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cWg-AF-pe3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fl0-EM-QF0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5ui-ha-NyI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kMO-C5-OjS">
+                                <frame key="frameInset" minX="16" minY="90" width="343" height="452"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">蘇軾《臨江仙》
+
+夜飲東坡醒復醉，歸來仿佛已三更。家童鼻息已雷鳴，敲門都不應，倚帳聽江聲。　　
+
+長恨此身非我有，何時忘卻營營。夜闌風靜縠紋平，小舟從此逝，江海寄餘生。</string>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="蘇軾" id="63P-fA-nzZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLq-IW-usc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4380" y="888.30584707646187"/>
         </scene>
         <!--杜甫-->
         <scene sceneID="fHS-Vb-jid">
@@ -186,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2T-Sw-uwY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4282" y="909"/>
+            <point key="canvasLocation" x="6164" y="-830.73463268365822"/>
         </scene>
         <!--王維-->
         <scene sceneID="VzV-hz-bi4">
@@ -220,7 +309,44 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iOD-lF-dCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4994" y="909"/>
+            <point key="canvasLocation" x="5428" y="-405.24737631184411"/>
+        </scene>
+        <!--宋詞-->
+        <scene sceneID="IBg-cO-FvR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z8G-9k-avj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="宋詞" id="VNr-ax-gEz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="daC-tQ-wnw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FWJ-T3-JIY" kind="relationship" relationship="rootViewController" id="QJ0-1d-cth"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AMA-hr-7En" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2803" y="889"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="tZM-3l-Kzd">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="v9r-cA-yVa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hUa-6f-c4r">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0WH-rj-sMx" kind="relationship" relationship="viewControllers" id="zBe-Cl-R2L"/>
+                        <segue destination="Z8G-9k-avj" kind="relationship" relationship="viewControllers" id="NUF-d3-Ocy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MB1-oE-EcN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2802.4000000000001" y="-518.59070464767615"/>
         </scene>
     </scenes>
 </document>
